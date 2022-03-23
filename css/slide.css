@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section#slideSection {
+    position: relative;
+    width: 100%;
+    
+}
+
+section#slideSection > ul.slider {
+  list-style: none;
+  overflow: hidden;  
+  height: 800px;
+  position: relative;
+  width: 100%;
+}
+
+section#slideSection > ul.slider > li {  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+
+  opacity: 0;
+}
+
+section#slideSection > ul.slider > li > div {  
+  width: 100%;
+  height: 100%;
+}
+
+section#slideSection > ul.slider > li > div.firstSlide {  
+  background-image: url("../images/slide_image/slide_1.jpg");
+  background-position: 25% 45%;
+  background-size: cover;
+  position: relative;
+}
+
+section#slideSection > ul.slider > li > div.secondSlide {  
+  background-image: url("../images/slide_image/slide_2.jpg");
+  background-position: 25% 45%;
+  background-size: cover;
+  position: relative;
+}
+
+section#slideSection > ul.slider > li > div.thirdSlide {
+  border: 1px dashed green;
+  background-image: url("../images/slide_image/slide_3.jpg");
+  background-position: 25% 45%;
+  background-size: cover;
+  position: relative;
+}
+
+section#slideSection > ul.slider > li > div > div.slideContent {
+  position: absolute;  
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  color: white;
+  top: 28%;
+  left: 22%;
+  padding: 100px 0 80px 140px;  
+}
+
+section#slideSection > ul.slider > li > div > div > h2 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+section#slideSection > ul.slider > li > div > div > h2 > span {
+  color: greenyellow;
+}
+
+section#slideSection > ul.slider > li > div > div > p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+  width: 85%;  
+}
+
+section#slideSection > ul.slider > li > div > div > a {
+  display: inline-block;
+  color: black;
+  background-color: greenyellow;
+  padding: 15px 25px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 20px;
+  text-decoration: none;  
+}
+
+section#slideSection > ul.slider > li > div > div > a:hover {
+  color: white;
+  background-color: rgb(34, 123, 238);
+  transition-duration: 200ms;
+}
+
+section#slideSection > div.btn {
+    position: absolute;
+    top: 50%;    
+    left: 0%;
+    width: 100%;    
+    display: flex;
+    justify-content: space-around;    
+}
+
+section#slideSection > div.btn > button {
+    font-size: 75px;
+    background: none;    
+    color: gray;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+section#slideSection > div.btn > button.prev {        
+}
+
+section#slideSection > div.btn > button.next {
+
+}
