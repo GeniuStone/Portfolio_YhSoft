@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
     // 메인메뉴 및 서브메뉴 조작(mobile)
 
-    /*window.open("pop_up.html","YHsoft","width=400px , height=595px , scrollbars=no , toolbar=no , location=no, left=70px, top=90px");*/
+    window.open("pop_up.html","YHsoft","width=400px , height=595px , scrollbars=no , toolbar=no , location=no, left=70px, top=90px");
     // 팝업창 띄우기
 
     $(".tab1 a").bind("focus click",function(e){
